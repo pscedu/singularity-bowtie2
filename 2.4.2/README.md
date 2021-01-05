@@ -10,6 +10,12 @@ There is no need to build a container, because an image is already available fro
 bash ./pull.sh
 ```
 
+To avoid that pesky warning when building directly from a Docker container, run
+
+```
+bash ./build.sh
+```
+
 ## Installing the container on Bridges (or similar)
 Copy the
 
