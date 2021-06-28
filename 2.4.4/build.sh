@@ -3,7 +3,7 @@
 # Copyright © 2021 Pittsburgh Supercomputing Center.
 # All Rights Reserved.
 
-IMAGE=singularity-bowtie2-2.4.2.sif
+IMAGE=singularity-bowtie2-2.4.4.sif
 DEFINITION=Singularity
 
 if [ -f $IMAGE ]; then
