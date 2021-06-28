@@ -1,5 +1,5 @@
 --
--- bowtie2 2.4.2 modulefile
+-- bowtie2 2.4.4 modulefile
 --
 -- "URL: https://www.psc.edu/resources/software"
 -- "Category: Biological Sciences"
@@ -7,13 +7,13 @@
 -- "Keywords: singularity bioinformatics"
 
 whatis("Name: bowtie2")
-whatis("Version: 2.4.2")
+whatis("Version: 2.4.4")
 whatis("Category: Biological Sciences")
 whatis("URL: https://www.psc.edu/resources/software")
 whatis("Description: bowtie2 is an ultrafast and memory-efficient tool for aligning sequencing reads to long reference sequences")
 
 help([[
-bowtie2 2.4.2
+bowtie2 2.4.4
 -------------
 
 Description
@@ -22,11 +22,11 @@ bowtie2 is an ultrafast and memory-efficient tool for aligning sequencing reads 
 
 To load the module type
 
-> module load bowtie2/2.4.2
+> module load bowtie2/2.4.4
 
 To unload the module type
 
-> module unload bowtie2/2.4.2
+> module unload bowtie2/2.4.4
 
 Documentation
 -------------
@@ -46,6 +46,6 @@ Tools included in this module are
 ]])
 
 local package = "bowtie2"
-local version = "2.4.2"
+local version = "2.4.4"
 local base    = pathJoin("/opt/packages",package,version)
 prepend_path("PATH", base)
