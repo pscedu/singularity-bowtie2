@@ -6,20 +6,20 @@
 
  proc ModulesHelp { } {
  global dotversion
- puts stderr "bowtie2 2.4.2 (bowtie2)"
+ puts stderr "bowtie2 2.4.4 (bowtie2)"
  puts stderr "---------------------"
  puts stderr "\nTo enable, first load the following required modules (via module load command): "
- puts stderr "\n\tmodule load bowtie2/2.4.2"
+ puts stderr "\n\tmodule load bowtie2/2.4.4"
  puts stderr "\nFor a full list of binaries included in this module, type"
- puts stderr "\n\tmodule what-is bowtie2/2.4.2"
+ puts stderr "\n\tmodule what-is bowtie2/2.4.4"
  }
 
-module-whatis "bowtie2 2.4.2 (bowtie2)
+module-whatis "bowtie2 2.4.4 (bowtie2)
 
   Tools included in this module are
 
   * bowtie2"
 
-set BOWTIE_HOME /opt/packages/bowtie2/2.4.2
+set BOWTIE_HOME /opt/packages/bowtie2/2.4.4
 setenv BOWTIE_HOME ${BOWTIE_HOME}
 prepend-path PATH ${BOWTIE_HOME}
