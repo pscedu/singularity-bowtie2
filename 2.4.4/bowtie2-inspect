@@ -4,7 +4,7 @@ if [ ! $(command -v singularity) ]; then
 	module load singularity
 fi
 
-VERSION=2.4.2
+VERSION=2.4.4
 PACKAGE=bowtie2
 TOOL=bowtie2-inspect
 DIRECTORY=/opt/packages/$PACKAGE/$VERSION
