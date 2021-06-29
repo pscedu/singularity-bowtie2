@@ -13,9 +13,9 @@ Copy the
 * `SIF` file
 * and the Perl scripts
 
-to `/opt/packages/bowtie2/2.2.5`.
+to `/opt/packages/bowtie2/2.4.4`.
 
-Copy the file `modulefile.lua` to `/opt/modulefiles/bowtie2` as `2.2.5.lua`.
+Copy the file `modulefile.lua` to `/opt/modulefiles/bowtie2` as `2.4.4.lua`.
 
 ## Building the image using the recipe
 ### To build the image locally
