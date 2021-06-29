@@ -6,6 +6,7 @@
 
 # singularity-bowtie2
 ![Logo](http://bowtie-bio.sourceforge.net/bowtie2/images/bowtie_logo.png)
+
 Singularity recipe for [bowtie2](https://github.com/sandialabs/bowtie2).
 
 ## Installing the container on Bridges 2
